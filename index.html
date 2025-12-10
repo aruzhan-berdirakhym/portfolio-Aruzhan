@@ -45,9 +45,9 @@
         justify-content: space-between;
         align-items: center;
     }
-    .logo {
-        font-size: 1.5rem;
-        font-weight: bold;
+    .logo img {
+        display: block;
+        height: 50px;
     }
     nav a {
         margin-left: 20px;
@@ -148,7 +148,11 @@
 <!-- Header -->
 <header>
     <div class="header-container">
-        <div class="logo">Aruzhan Berdirakhym</div>
+        <div class="logo">
+            <a href="#hero">
+                <img src="mylogo.png" alt="Logo of Aruzhan">
+            </a>
+        </div>
         <nav>
             <a href="#about">About Me</a>
             <a href="#course">О курсе</a>
@@ -159,7 +163,7 @@
 </header>
 
 <!-- Hero Section -->
-<section class="hero">
+<section id="hero" class="hero">
     <h1>Aruzhan Berdirakhym</h1>
     <p>Web Developer & Information Systems Student</p>
     <img src="portrait.png" alt="Portrait of Aruzhan">
