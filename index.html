@@ -18,7 +18,8 @@
     header { background-color: #0288d1; color: #fff; padding: 20px 0; position: sticky; top: 0; z-index: 1000; }
     .header-container { max-width: 1000px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
     .logo img { display: block; height: 50px; }
-    nav a { margin-left: 20px; font-weight: 500; }
+    nav a { margin-left: 20px; font-weight: 500; color: #fff; }
+    nav a:hover { text-decoration: underline; }
 
     /* Hero Section */
     .hero { background-color: #b2ebf2; text-align: center; padding: 60px 20px; }
@@ -35,7 +36,20 @@
     .card { background-color: #fff; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); flex: 1 1 300px; }
     .card img { width: 100%; border-radius: 6px; margin-bottom: 15px; }
     .card a.button { display: inline-block; background-color: #0288d1; color: #fff; padding: 10px 20px; border-radius: 6px; font-weight: bold; margin-top: 10px; margin-right: 10px; }
-    .card a.button:hover { background-color: #0277bd; }
+    .card a.button:hover { background-color: #0277bd; text-decoration: none; }
+
+    /* Exam Tasks */
+    .task-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 10px;
+        margin-top: 12px;
+    }
+    .task-grid a.button {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
 
     /* About Me */
     #about p { margin-bottom: 15px; }
@@ -66,6 +80,7 @@
             <a href="#course">Course</a>
             <a href="#next-project">Next Project</a>
             <a href="#weekly-tasks">Weekly Tasks</a>
+            <a href="#exam-tasks">Exam Tasks</a>
             <a href="#contact">Contact</a>
         </nav>
     </div>
@@ -115,6 +130,34 @@
         <a href="https://aruzhan-berdirakhym.github.io/webcourseproject2/" class="button" target="_blank">Task 3</a>
         <a href="https://aruzhan-berdirakhym.github.io/26-11-2025/" class="button" target="_blank">Task 4</a>
         <p style="margin-top:10px;">Full repository on GitHub: <a href="https://github.com/aruzhan-berdirakhym" target="_blank">View All</a></p>
+    </div>
+
+    <!-- Exam Tasks Card -->
+    <div class="card" id="exam-tasks">
+        <h2>Exam Tasks (20)</h2>
+
+        <div class="task-grid">
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 1</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 2</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 3</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 4</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 5</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 6</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 7</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 8</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 9</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 10</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 11</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 12</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 13</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 14</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 15</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 16</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 17</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 18</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 19</a>
+            <a href="PUT-LINK-HERE" class="button" target="_blank">Task 20</a>
+        </div>
     </div>
 
 </section>
